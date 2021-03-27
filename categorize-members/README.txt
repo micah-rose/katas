@@ -10,6 +10,10 @@ Input will consist of a list  of lists containing two items each. Each List cont
 single potential member. Information consists of an integer for the persons's age and an integar for the
 person's handicap.
 
+OUTPUT:
+Output will consist of a list of string values (in Haskell: Open or Senior) stating whether the respective
+member is to be placed in the Senior or Open category.
+
 EXAMPLE: 
 Input - [[18, 20], [45, 2], [61, 12], [37, 6], [21, 21], [78, 9]]
 Output - ["Open", "Open", "Senior", "Open", "Open", "Senior"]
