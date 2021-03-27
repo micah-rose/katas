@@ -3,7 +3,7 @@
 Output: ["Open", "Open", "Senior", "Open", "Open", "Senior"]*/
 
 const openOrSenior = (data) => {
-    data.map((input) => {
+    return data.map((input) => {
         if(input[0] > 55 && input[1] > 7) {
             return "Senior"
         } else {
