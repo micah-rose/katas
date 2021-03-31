@@ -11,9 +11,9 @@ myMaze = [
   [0, 1, 1, 1, 1, 0, 1, 1, 1, 0],
   [0, 1, 0, 0, 1, 0, 1, 0, 1, 0],
   [0, 0, 0, 0, 1, 1, 1, 0, 1, 0],
-  [0, 0, 0, 0, 0, 0, 0, 0, 1, 2],
-  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  [0, 0, 0, 0, 0, 0, 0, 0, 1, 1],
+  [0, 0, 0, 0, 0, 0, 0, 0, 0, 2]
 ]
 
-The above 2D array is our maze. The zero values represent walls, the one values represent paths, and 
-the value two represents the exit or goal of our maze.
+The above 2D array is our maze. The 0 values represent walls, the 1 values represent paths, and 
+the value 2 represents the exit or goal of our maze.
