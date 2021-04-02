@@ -2,12 +2,16 @@
     > 55 and > 7 = Senior
 Output: ["Open", "Open", "Senior", "Open", "Open", "Senior"]*/
 
+// const openOrSenior = (data) => {
+//     return data.map((input) => {
+//         if(input[0] >= 55 && input[1] > 7) {
+//             return "Senior"
+//         } else {
+//             return "Open"
+//         }
+//     })
+// }
+
 const openOrSenior = (data) => {
-    return data.map((input) => {
-        if(input[0] >= 55 && input[1] >= 7) {
-            return "Senior"
-        } else {
-            return "Open"
-        }
-    })
+    return data.map(([age, handicap]) => (age >= 55 && handicap > 7) ? 'Senior' : 'Open');
 }
