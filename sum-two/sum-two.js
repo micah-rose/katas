@@ -7,7 +7,8 @@ const sumTwo = (numbers) => {
     var sortedNumbers = numbers.map( x => +x)
         .sort(function(a, b){return a-b});
 
-    console.log(sortedNumbers)
+    var sumOfTwo = sortedNumbers[0] + sortedNumbers[1]
+    console.log(sumOfTwo)
 }
 
 sumTwo(numbers);
