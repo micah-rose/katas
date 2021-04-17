@@ -12,7 +12,8 @@ const replaceAlpha = (text) => {
         .toLowerCase()
         .replace(/[^a-zA-Z]/g, '')
         .split('')
-        .map((letter) => alpha.indexOf(letter) + 1);
+        .map((letter) => alpha.indexOf(letter) + 1)
+        .join(' ');
     console.log(lowerText)
 }
 
