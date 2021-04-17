@@ -8,7 +8,7 @@ const alpha = [
 ]
 
 const replaceAlpha = (text) => {
-    var lowerText = text.toLowerCase().replace(/ /g, '');
+    var lowerText = text.toLowerCase().replace(/[^a-zA-Z]/g, '');
     console.log(lowerText)
 }
 
